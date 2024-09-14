@@ -37,8 +37,7 @@ class _VacancyListViewState extends State<VacancyListView> {
             WidgetsBinding.instance.addPostFrameCallback((_) {
               showErrorDialog(
                 context: context,
-                content:
-                    'Failed to work, please check your internet connection.',
+                content: snapshot.error.toString(),
               );
             });
             return const SizedBox();
