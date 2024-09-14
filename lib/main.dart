@@ -7,7 +7,7 @@ import 'package:job_vacancy/views/vacancy_list_view.dart';
 // this way the app only restarts if it is closed
 void main() {
   runApp(MaterialApp(
-    title: 'Job Vacancy',
+    title: 'Job Matcher',
     debugShowCheckedModeBanner: false,
     theme: ThemeData(
       colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
